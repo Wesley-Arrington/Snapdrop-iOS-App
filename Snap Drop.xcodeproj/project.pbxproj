@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6EE9FA5258D7C5800CE0FED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE9FA4258D7C5800CE0FED /* AppDelegate.swift */; };
+		F6EE9FA7258D7C5800CE0FED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE9FA6258D7C5800CE0FED /* SceneDelegate.swift */; };
+		F6EE9FA9258D7C5800CE0FED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE9FA8258D7C5800CE0FED /* ViewController.swift */; };
+		F6EE9FAC258D7C5800CE0FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EE9FAA258D7C5800CE0FED /* Main.storyboard */; };
+		F6EE9FAE258D7C5B00CE0FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6EE9FAD258D7C5B00CE0FED /* Assets.xcassets */; };
+		F6EE9FB1258D7C5B00CE0FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EE9FAF258D7C5B00CE0FED /* LaunchScreen.storyboard */; };
+		F6EE9FBC258D7C5B00CE0FED /* Snap_DropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE9FBB258D7C5B00CE0FED /* Snap_DropTests.swift */; };
+		F6EE9FC7258D7C5B00CE0FED /* Snap_DropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE9FC6258D7C5B00CE0FED /* Snap_DropUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6EE9FB8258D7C5B00CE0FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EE9F99258D7C5800CE0FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6EE9FA0258D7C5800CE0FED;
+			remoteInfo = "Snap Drop";
+		};
+		F6EE9FC3258D7C5B00CE0FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EE9F99258D7C5800CE0FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6EE9FA0258D7C5800CE0FED;
+			remoteInfo = "Snap Drop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6EE9FA1258D7C5800CE0FED /* Snap Drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snap Drop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EE9FA4258D7C5800CE0FED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6EE9FA6258D7C5800CE0FED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6EE9FA8258D7C5800CE0FED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6EE9FAB258D7C5800CE0FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6EE9FAD258D7C5B00CE0FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6EE9FB0258D7C5B00CE0FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6EE9FB2258D7C5B00CE0FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EE9FB7258D7C5B00CE0FED /* Snap DropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snap DropTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EE9FBB258D7C5B00CE0FED /* Snap_DropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap_DropTests.swift; sourceTree = "<group>"; };
+		F6EE9FBD258D7C5B00CE0FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EE9FC2258D7C5B00CE0FED /* Snap DropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snap DropUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EE9FC6258D7C5B00CE0FED /* Snap_DropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap_DropUITests.swift; sourceTree = "<group>"; };
+		F6EE9FC8258D7C5B00CE0FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6EE9F9E258D7C5800CE0FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE9FB4258D7C5B00CE0FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE9FBF258D7C5B00CE0FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6EE9F98258D7C5800CE0FED = {
+			isa = PBXGroup;
+			children = (
+				F6EE9FA3258D7C5800CE0FED /* Snap Drop */,
+				F6EE9FBA258D7C5B00CE0FED /* Snap DropTests */,
+				F6EE9FC5258D7C5B00CE0FED /* Snap DropUITests */,
+				F6EE9FA2258D7C5800CE0FED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6EE9FA2258D7C5800CE0FED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE9FA1258D7C5800CE0FED /* Snap Drop.app */,
+				F6EE9FB7258D7C5B00CE0FED /* Snap DropTests.xctest */,
+				F6EE9FC2258D7C5B00CE0FED /* Snap DropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6EE9FA3258D7C5800CE0FED /* Snap Drop */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE9FA4258D7C5800CE0FED /* AppDelegate.swift */,
+				F6EE9FA6258D7C5800CE0FED /* SceneDelegate.swift */,
+				F6EE9FA8258D7C5800CE0FED /* ViewController.swift */,
+				F6EE9FAA258D7C5800CE0FED /* Main.storyboard */,
+				F6EE9FAD258D7C5B00CE0FED /* Assets.xcassets */,
+				F6EE9FAF258D7C5B00CE0FED /* LaunchScreen.storyboard */,
+				F6EE9FB2258D7C5B00CE0FED /* Info.plist */,
+			);
+			path = "Snap Drop";
+			sourceTree = "<group>";
+		};
+		F6EE9FBA258D7C5B00CE0FED /* Snap DropTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE9FBB258D7C5B00CE0FED /* Snap_DropTests.swift */,
+				F6EE9FBD258D7C5B00CE0FED /* Info.plist */,
+			);
+			path = "Snap DropTests";
+			sourceTree = "<group>";
+		};
+		F6EE9FC5258D7C5B00CE0FED /* Snap DropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE9FC6258D7C5B00CE0FED /* Snap_DropUITests.swift */,
+				F6EE9FC8258D7C5B00CE0FED /* Info.plist */,
+			);
+			path = "Snap DropUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6EE9FA0258D7C5800CE0FED /* Snap Drop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EE9FCB258D7C5B00CE0FED /* Build configuration list for PBXNativeTarget "Snap Drop" */;
+			buildPhases = (
+				F6EE9F9D258D7C5800CE0FED /* Sources */,
+				F6EE9F9E258D7C5800CE0FED /* Frameworks */,
+				F6EE9F9F258D7C5800CE0FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snap Drop";
+			productName = "Snap Drop";
+			productReference = F6EE9FA1258D7C5800CE0FED /* Snap Drop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6EE9FB6258D7C5B00CE0FED /* Snap DropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EE9FCE258D7C5B00CE0FED /* Build configuration list for PBXNativeTarget "Snap DropTests" */;
+			buildPhases = (
+				F6EE9FB3258D7C5B00CE0FED /* Sources */,
+				F6EE9FB4258D7C5B00CE0FED /* Frameworks */,
+				F6EE9FB5258D7C5B00CE0FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6EE9FB9258D7C5B00CE0FED /* PBXTargetDependency */,
+			);
+			name = "Snap DropTests";
+			productName = "Snap DropTests";
+			productReference = F6EE9FB7258D7C5B00CE0FED /* Snap DropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6EE9FC1258D7C5B00CE0FED /* Snap DropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EE9FD1258D7C5B00CE0FED /* Build configuration list for PBXNativeTarget "Snap DropUITests" */;
+			buildPhases = (
+				F6EE9FBE258D7C5B00CE0FED /* Sources */,
+				F6EE9FBF258D7C5B00CE0FED /* Frameworks */,
+				F6EE9FC0258D7C5B00CE0FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6EE9FC4258D7C5B00CE0FED /* PBXTargetDependency */,
+			);
+			name = "Snap DropUITests";
+			productName = "Snap DropUITests";
+			productReference = F6EE9FC2258D7C5B00CE0FED /* Snap DropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6EE9F99258D7C5800CE0FED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = CDsigma;
+				TargetAttributes = {
+					F6EE9FA0258D7C5800CE0FED = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F6EE9FB6258D7C5B00CE0FED = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F6EE9FA0258D7C5800CE0FED;
+					};
+					F6EE9FC1258D7C5B00CE0FED = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F6EE9FA0258D7C5800CE0FED;
+					};
+				};
+			};
+			buildConfigurationList = F6EE9F9C258D7C5800CE0FED /* Build configuration list for PBXProject "Snap Drop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6EE9F98258D7C5800CE0FED;
+			productRefGroup = F6EE9FA2258D7C5800CE0FED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6EE9FA0258D7C5800CE0FED /* Snap Drop */,
+				F6EE9FB6258D7C5B00CE0FED /* Snap DropTests */,
+				F6EE9FC1258D7C5B00CE0FED /* Snap DropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6EE9F9F258D7C5800CE0FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE9FB1258D7C5B00CE0FED /* LaunchScreen.storyboard in Resources */,
+				F6EE9FAE258D7C5B00CE0FED /* Assets.xcassets in Resources */,
+				F6EE9FAC258D7C5800CE0FED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE9FB5258D7C5B00CE0FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE9FC0258D7C5B00CE0FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6EE9F9D258D7C5800CE0FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE9FA9258D7C5800CE0FED /* ViewController.swift in Sources */,
+				F6EE9FA5258D7C5800CE0FED /* AppDelegate.swift in Sources */,
+				F6EE9FA7258D7C5800CE0FED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE9FB3258D7C5B00CE0FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE9FBC258D7C5B00CE0FED /* Snap_DropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE9FBE258D7C5B00CE0FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE9FC7258D7C5B00CE0FED /* Snap_DropUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6EE9FB9258D7C5B00CE0FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6EE9FA0258D7C5800CE0FED /* Snap Drop */;
+			targetProxy = F6EE9FB8258D7C5B00CE0FED /* PBXContainerItemProxy */;
+		};
+		F6EE9FC4258D7C5B00CE0FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6EE9FA0258D7C5800CE0FED /* Snap Drop */;
+			targetProxy = F6EE9FC3258D7C5B00CE0FED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6EE9FAA258D7C5800CE0FED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EE9FAB258D7C5800CE0FED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6EE9FAF258D7C5B00CE0FED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EE9FB0258D7C5B00CE0FED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6EE9FC9258D7C5B00CE0FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6EE9FCA258D7C5B00CE0FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6EE9FCC258D7C5B00CE0FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T594FM7A75;
+				INFOPLIST_FILE = "Snap Drop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CDsigma.Snap-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6EE9FCD258D7C5B00CE0FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T594FM7A75;
+				INFOPLIST_FILE = "Snap Drop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CDsigma.Snap-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6EE9FCF258D7C5B00CE0FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T594FM7A75;
+				INFOPLIST_FILE = "Snap DropTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CDsigma.Snap-DropTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snap Drop.app/Snap Drop";
+			};
+			name = Debug;
+		};
+		F6EE9FD0258D7C5B00CE0FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T594FM7A75;
+				INFOPLIST_FILE = "Snap DropTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CDsigma.Snap-DropTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snap Drop.app/Snap Drop";
+			};
+			name = Release;
+		};
+		F6EE9FD2258D7C5B00CE0FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T594FM7A75;
+				INFOPLIST_FILE = "Snap DropUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CDsigma.Snap-DropUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snap Drop";
+			};
+			name = Debug;
+		};
+		F6EE9FD3258D7C5B00CE0FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T594FM7A75;
+				INFOPLIST_FILE = "Snap DropUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CDsigma.Snap-DropUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snap Drop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6EE9F9C258D7C5800CE0FED /* Build configuration list for PBXProject "Snap Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE9FC9258D7C5B00CE0FED /* Debug */,
+				F6EE9FCA258D7C5B00CE0FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EE9FCB258D7C5B00CE0FED /* Build configuration list for PBXNativeTarget "Snap Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE9FCC258D7C5B00CE0FED /* Debug */,
+				F6EE9FCD258D7C5B00CE0FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EE9FCE258D7C5B00CE0FED /* Build configuration list for PBXNativeTarget "Snap DropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE9FCF258D7C5B00CE0FED /* Debug */,
+				F6EE9FD0258D7C5B00CE0FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EE9FD1258D7C5B00CE0FED /* Build configuration list for PBXNativeTarget "Snap DropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE9FD2258D7C5B00CE0FED /* Debug */,
+				F6EE9FD3258D7C5B00CE0FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6EE9F99258D7C5800CE0FED /* Project object */;
+}

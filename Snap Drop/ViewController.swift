@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var WebView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let myURL = URL(string:"https://www.snapdrop.net")
+        let myRequest = URLRequest(url: myURL!)
+        WebView.load(myRequest)
     }
 
 
